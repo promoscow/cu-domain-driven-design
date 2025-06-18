@@ -5,8 +5,9 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### IntelliJ IDEA ###
+### Giga IDE ###
 .idea
+.gigaide
 *.iws
 *.iml
 *.ipr

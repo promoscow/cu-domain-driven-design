@@ -1,7 +1,7 @@
 package ru.chernyshoff.ddd.service
 
 import ru.chernyshoff.ddd.domain.Buyer
-import java.util.*
+import java.util.UUID
 
 interface BuyerService {
 

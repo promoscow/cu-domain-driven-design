@@ -1,6 +1,6 @@
 package ru.chernyshoff.ddd.domain
 
-import java.util.*
+import java.util.UUID
 
 data class Seller(
     val id: UUID? = null,

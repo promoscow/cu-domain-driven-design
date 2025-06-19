@@ -1,7 +1,7 @@
 package ru.chernyshoff.ddd.domain
 
 import java.math.BigDecimal
-import java.util.*
+import java.util.UUID
 
 data class Good(
     val id: UUID? = null,

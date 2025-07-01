@@ -3,7 +3,8 @@ package ru.chernyshoff.ddd.domain
 import java.util.UUID
 
 data class Buyer(
-    val id: UUID,
+    val id: UUID? = null,
+    val name: String,
     val userId: UUID,
-    val cart: Cart?
+    val cart: Cart? = null
 )
